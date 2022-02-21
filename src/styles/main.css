@@ -24,7 +24,6 @@ main .menuWrapper .core {
   height: 10%;
   position: absolute;
   z-index: 4;
-  background-color: violet;
 }
 main .menuWrapper .time {
   width: 12%;
@@ -33,7 +32,6 @@ main .menuWrapper .time {
   z-index: 3;
   right: 38%;
   top: 39%;
-  background-color: skyblue;
 }
 main .menuWrapper .drivers {
   width: 9.5%;
@@ -42,7 +40,6 @@ main .menuWrapper .drivers {
   z-index: 2;
   left: 41%;
   bottom: 36%;
-  background-color: yellowgreen;
 }
 main .menuWrapper .tool {
   width: 7%;
@@ -51,7 +48,6 @@ main .menuWrapper .tool {
   z-index: 2;
   right: 43%;
   bottom: 32%;
-  background-color: grey;
 }
 main .menuWrapper .femTech {
   width: 2.3%;
@@ -60,6 +56,8 @@ main .menuWrapper .femTech {
   z-index: 1;
   left: 42.5%;
   bottom: 29%;
+  border: bisque;
+  background-color: bisque;
 }
 main .menuWrapper .femTech img {
   width: 100%;
@@ -72,7 +70,6 @@ main .menuWrapper .projects {
   z-index: 1;
   right: 34.5%;
   bottom: 40%;
-  background-color: yellow;
 }
 main .menuWrapper .education {
   width: 2%;
@@ -83,14 +80,14 @@ main .menuWrapper .education {
   top: 31%;
   writing-mode: vertical-lr;
   text-orientation: upright;
-  background-color: teal;
 }
 main .menuWrapper .contact {
+  width: 12%;
+  height: 4%;
   position: absolute;
   z-index: 5;
-  right: 35%;
+  right: 32%;
   bottom: 33%;
-  background-color: tomato;
 }
 
 * {
