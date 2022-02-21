@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.2s;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 6vh 100% 6vh;
+  grid-template-areas: "header" "main" "footer";
+}
+
+/*# sourceMappingURL=main.css.map */
