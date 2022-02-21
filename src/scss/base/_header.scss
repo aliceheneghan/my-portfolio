@@ -1,8 +1,9 @@
 header {
     display: flex;
     justify-content: center;
-    .headerContent {
-        width: 90%;
+    .headerContent { 
+        // created margin by setting width to 90% and centering
+        width: 90%; 
         display: flex;
         align-items: center;
         p {

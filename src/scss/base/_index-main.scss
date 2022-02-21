@@ -14,7 +14,9 @@ main {
             justify-content: center;
             align-items: center;
             background-color: #F7CC86;
-            border: 1.5px #D4AF37 solid;
+            border: 0.5px black solid;
+            outline: 3px #D4AF37 solid;
+            box-shadow: 6px 6px 6px skyblue, inset 3px 3px 25px rgba(0, 0, 255, .6);
         }
         // Core values should be central-button
         .core {
@@ -24,7 +26,7 @@ main {
             top: 41%;
             left: 40.5%;
             z-index: 4;
-            
+
         }
         // Time & Travel should be top-right
         .time {
@@ -61,7 +63,9 @@ main {
             z-index: 1;
             bottom: 30.6%;
             left: 34%;
-            border: bisque;
+            border: none;
+            outline: none;
+            box-shadow: none;
             background-color: bisque;
             img {
                 width: 100%;
