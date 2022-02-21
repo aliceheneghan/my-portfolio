@@ -3,19 +3,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D4AF37;
+    background-color: bisque;
     .menuWrapper {
         width: 70%;
         height: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: bisque;
         .menu {
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 1px black solid;
+            background-color: #F7CC86;
         }
         // Core values should be central-button
         .core {
@@ -23,6 +22,7 @@ main {
             height: 10%;
             position: absolute;
             z-index: 4;
+            
         }
         // Time & Travel should be top-right
         .time {
@@ -58,7 +58,7 @@ main {
             position: absolute;
             z-index: 1;
             left: 42.5%;
-            bottom: 29%;
+            bottom: 28.5%;
             border: bisque;
             background-color: bisque;
             img {
