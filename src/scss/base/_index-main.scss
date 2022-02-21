@@ -1,0 +1,100 @@
+main {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4AF37;
+    .menuWrapper {
+        width: 70%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: bisque;
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px black solid;
+        }
+        // Core values should be central-button
+        .core {
+            width: 10%;
+            height: 10%;
+            position: absolute;
+            z-index: 4;
+            background-color: violet;
+        }
+        // Time & Travel should be top-right
+        .time {
+            width: 12%;
+            height: 8%;
+            position: absolute;
+            z-index: 3;
+            right: 38%;
+            top: 39%;
+            background-color: skyblue;
+        }
+        // Drivers should be bottom-left
+        .drivers {
+            width: 9.5%;
+            height: 11%;
+            position: absolute;
+            z-index: 2;
+            left: 41%;
+            bottom: 36%;
+            background-color: yellowgreen;
+        }
+        // Tool Stack should be bottom-right
+        .tool {
+            width: 7%;
+            height: 22%;
+            position: absolute;
+            z-index: 2;
+            right: 43%;
+            bottom: 32%;
+            background-color: grey;
+        }
+        // Females in Tech should be bottom-left from Drivers
+        .femTech {
+            width: 2.3%;
+            height: 8%;
+            position: absolute;
+            z-index: 1;
+            left: 42.5%;
+            bottom: 29%;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        // Projects should be right of Tool Stack
+        .projects {
+            width: 9%;
+            height: 15%;
+            position: absolute;
+            z-index: 1;
+            right: 34.5%;
+            bottom: 40%;
+            background-color: yellow;
+        }
+        // Education should be top-left
+        .education {
+            position: absolute;
+            z-index: 7;
+            left: 40%;
+            top: 44%;
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+            background-color: teal;
+        }
+        // Contact should be bottom-right of Tool Stack
+        .contact {
+            position: absolute;
+            z-index: 5;
+            right: 35%;
+            bottom: 33%;
+            background-color: tomato;
+        }
+    }
+}
