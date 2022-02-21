@@ -75,10 +75,12 @@ main .menuWrapper .projects {
   background-color: yellow;
 }
 main .menuWrapper .education {
+  width: 2%;
+  height: 24%;
   position: absolute;
-  z-index: 7;
-  left: 40%;
-  top: 44%;
+  z-index: 1;
+  left: 43.3%;
+  top: 31%;
   writing-mode: vertical-lr;
   text-orientation: upright;
   background-color: teal;
