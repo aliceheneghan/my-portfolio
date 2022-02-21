@@ -2,8 +2,9 @@
 
 **[Test this app yourself](https://aliceheneghan.github.io/my-portfolio/)**
 
----
 ![Project Screenshot](./src/images/watch-this-space.png)
+
+---
 
 #### Navigation
 
