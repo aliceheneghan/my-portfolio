@@ -23,7 +23,7 @@ main {
             height: 12%;
             position: absolute;
             top: 42%;
-            left: 43%;
+            left: 41.5%;
             z-index: 4;
             
         }
@@ -43,7 +43,7 @@ main {
             position: absolute;
             z-index: 2;
             bottom: 38%;
-            left: 40.7%;
+            left: 38%;
         }
         // Tool Stack should be bottom-right
         .tool {
@@ -60,8 +60,8 @@ main {
             height: 8%;
             position: absolute;
             z-index: 1;
-            left: 42.5%;
-            bottom: 28.5%;
+            bottom: 31%;
+            left: 37%;
             border: bisque;
             background-color: bisque;
             img {
@@ -84,8 +84,8 @@ main {
             height: 24%;
             position: absolute;
             z-index: 1;
-            left: 43.3%;
-            top: 31%;
+            top: 24%;
+            left: 41.3%;
             writing-mode: vertical-lr;
             text-orientation: upright;
         }
