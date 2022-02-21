@@ -17,11 +17,14 @@ main .menuWrapper .menu {
   justify-content: center;
   align-items: center;
   background-color: #F7CC86;
+  border: 1px black solid;
 }
 main .menuWrapper .core {
   width: 10%;
   height: 10%;
   position: absolute;
+  top: 42%;
+  left: 43%;
   z-index: 4;
 }
 main .menuWrapper .time {
