@@ -28,11 +28,14 @@ body {
     height: 88vh;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 6vh 100% 6vh;
+    grid-template-rows: 10vh 100% 6vh;
     grid-template-areas: 
         "header"
         "main"
         "footer";
     background-color: bisque;
-
+    header {
+        display: flex;
+        align-items: center;
+    }
 }

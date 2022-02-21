@@ -1,0 +1,32 @@
+.logo {
+    width: 3vw;
+    height: 6vh;
+    display: flex;
+    flex-flow: row wrap;
+    div {
+        width: 50%;
+        height: 50%;
+        border: black solid;
+    }
+    .tl {
+        border-top-width: 4px;
+        border-right-width: 2px;
+        border-left-width: 4px;
+    }
+    .tr {
+        border-top: none;
+        border-right-width: 4px;
+        border-left-width: 2px;
+    }
+    .br {
+        border-right-width: 4px;
+        border-bottom: none;
+        border-left-width: 2px;
+    }
+    .bl {
+        border-right-width: 2px;
+        border-bottom: none;
+        border-left-width: 4px;
+    }
+    
+}
