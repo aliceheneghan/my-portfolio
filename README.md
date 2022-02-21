@@ -1,4 +1,4 @@
-#My Portfolio
+## My Portfolio
 
 **[Test this app yourself](https://aliceheneghan.github.io/my-portfolio/)**
 
@@ -26,13 +26,13 @@
 
 ##### Description
 
-_Personal & Professional Portfolio_
+_Personal & Professional Portfolio_  
 Create a portfolio using HTML/CSS/SCSS and include:
 - Landing page where you have picture of you with a short Bio (who are you)
 - Projects gallery (screenshots with GH links for preview and code)
 - Personal side of you (hobbies, tool-tack, photos, etc.)
 - Your social media links ( Linkedin, GitHub, etc.)
-- Optional:
+Optional:  
 - Menu
 - Multi Html pages
 - Contact form (will not be active with your current tools)
