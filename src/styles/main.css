@@ -17,7 +17,7 @@ main .menuWrapper .menu {
   justify-content: center;
   align-items: center;
   background-color: #F7CC86;
-  border: 1px black solid;
+  border: 1.5px #D4AF37 solid;
 }
 main .menuWrapper .core {
   width: 10%;
