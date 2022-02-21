@@ -1,3 +1,16 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+header .headerContent {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+header .headerContent p {
+  padding-left: 1%;
+}
+
 main {
   grid-area: main;
   display: flex;
@@ -106,21 +119,24 @@ main .menuWrapper .contact {
   border-top-width: 4px;
   border-right-width: 2px;
   border-left-width: 4px;
+  box-shadow: inset 2px 2px 2px violet;
 }
 .logo .tr {
   border-top: none;
   border-right-width: 4px;
   border-left-width: 2px;
+  box-shadow: inset 2px -2px skyblue;
 }
 .logo .br {
   border-right-width: 4px;
   border-bottom: none;
-  border-left-width: 2px;
+  box-shadow: inset 2px 2px skyblue;
 }
 .logo .bl {
   border-right-width: 2px;
   border-bottom: none;
   border-left-width: 4px;
+  box-shadow: inset 2px 2px 2px violet;
 }
 
 * {
