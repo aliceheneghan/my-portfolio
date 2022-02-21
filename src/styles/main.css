@@ -3,7 +3,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
 }
 main .menuWrapper {
   width: 70%;
@@ -111,6 +110,7 @@ body {
   grid-template-columns: 100%;
   grid-template-rows: 6vh 100% 6vh;
   grid-template-areas: "header" "main" "footer";
+  background-color: bisque;
 }
 
 /*# sourceMappingURL=main.css.map */
