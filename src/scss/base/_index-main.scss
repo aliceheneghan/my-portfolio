@@ -20,7 +20,7 @@ main {
         // Core values should be central-button
         .core {
             width: 10%;
-            height: 10%;
+            height: 12%;
             position: absolute;
             top: 42%;
             left: 43%;
@@ -33,8 +33,8 @@ main {
             height: 8%;
             position: absolute;
             z-index: 3;
-            right: 38%;
-            top: 39%;
+            top: 36%;
+            right: 39%;
         }
         // Drivers should be bottom-left
         .drivers {
@@ -42,8 +42,8 @@ main {
             height: 11%;
             position: absolute;
             z-index: 2;
-            left: 41%;
-            bottom: 36%;
+            bottom: 38%;
+            left: 40.7%;
         }
         // Tool Stack should be bottom-right
         .tool {

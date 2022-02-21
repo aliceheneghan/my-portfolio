@@ -21,7 +21,7 @@ main .menuWrapper .menu {
 }
 main .menuWrapper .core {
   width: 10%;
-  height: 10%;
+  height: 12%;
   position: absolute;
   top: 42%;
   left: 43%;
@@ -32,16 +32,16 @@ main .menuWrapper .time {
   height: 8%;
   position: absolute;
   z-index: 3;
-  right: 38%;
-  top: 39%;
+  top: 36%;
+  right: 39%;
 }
 main .menuWrapper .drivers {
   width: 9.5%;
   height: 11%;
   position: absolute;
   z-index: 2;
-  left: 41%;
-  bottom: 36%;
+  bottom: 38%;
+  left: 40.7%;
 }
 main .menuWrapper .tool {
   width: 7%;
