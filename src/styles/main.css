@@ -49,14 +49,15 @@ header .headerWrapper {
   display: flex;
   align-items: center;
 }
-header .headerWrapper p {
+header .headerWrapper .title {
   padding-left: 1%;
-  color: gray;
 }
-header .headerWrapper p span {
+header .headerWrapper .title span {
   font-size: 37px;
   font-weight: 500;
-  color: black;
+}
+header .headerWrapper .title p {
+  color: gray;
 }
 
 main {

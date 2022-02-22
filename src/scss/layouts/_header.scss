@@ -8,13 +8,14 @@ header {
         width: 90%; 
         display: flex;
         align-items: center;
-        p {
+        .title {
             padding-left: 1%;
-            color: gray;
-        span {
+            span {
             font-size: 37px;
             font-weight: 500;
-            color: black;
+            }
+            p {
+                color: gray;
             }
         }    
     }
