@@ -164,12 +164,13 @@ main {
   justify-content: center;
 }
 main .valuesWrapper {
-  width: 90%;
+  width: 60%;
   height: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px red solid;
 }
 main .valuesWrapper .values {
   width: 33.33%;
