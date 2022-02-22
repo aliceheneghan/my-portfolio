@@ -13,9 +13,12 @@ main {
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #F7CC86;
-            outline: 3px #D4AF37 solid;
-            box-shadow: 6px 6px 6px skyblue, inset 3px 3px 25px rgba(0, 0, 255, .6);
+            background-color: $menu-bg-colour;
+            // outline: 1px #D4AF37 solid;
+            box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6);
+            &:hover {
+                box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6), 6px 6px 6px skyblue;
+            }
         }
         // Core values should be central-button
         .core {
@@ -65,7 +68,7 @@ main {
             border: none;
             outline: none;
             box-shadow: none;
-            background-color: bisque;
+            background-color: none;          
             img {
                 width: 100%;
                 height: 100%;

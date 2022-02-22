@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
 .homeHeader, .menuWrapper {
   font-family: "Maven Pro", sans-serif;
@@ -72,9 +73,11 @@ main .menuWrapper .menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F7CC86;
-  outline: 3px #D4AF37 solid;
-  box-shadow: 6px 6px 6px skyblue, inset 3px 3px 25px rgba(0, 0, 255, 0.6);
+  background-color: whitesmoke;
+  box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
+}
+main .menuWrapper .menu:hover {
+  box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
 }
 main .menuWrapper .core {
   width: 10%;
@@ -118,7 +121,7 @@ main .menuWrapper .femTech {
   border: none;
   outline: none;
   box-shadow: none;
-  background-color: bisque;
+  background-color: none;
 }
 main .menuWrapper .femTech img {
   width: 100%;
@@ -170,7 +173,7 @@ body {
   grid-template-columns: 100%;
   grid-template-rows: 10vh 100% 6vh;
   grid-template-areas: "header" "main" "footer";
-  background-color: bisque;
+  background-color: §bg-colour;
 }
 body header {
   display: flex;
