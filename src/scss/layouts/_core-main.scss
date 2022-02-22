@@ -24,6 +24,9 @@ main {
                 color: grey;
                 background-color: $menu-bg-colour;
                 box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6);
+                &:hover {
+                    box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6), 6px 6px 6px skyblue;
+                }
             // background: radial-gradient(rgba(0, 0, 255, 0.37), white, white);
             //text-shadow: 1px 1px 2px skyblue, 0 0 1em skyblue, 0 0 0.2em black;
             //text-shadow: 10px 10px 10px skyblue;

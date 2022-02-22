@@ -187,6 +187,9 @@ main .valuesWrapper .values {
   background-color: whitesmoke;
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
 }
+main .valuesWrapper .values:hover {
+  box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
+}
 
 * {
   margin: 0;
