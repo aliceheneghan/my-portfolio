@@ -11,7 +11,7 @@ main {
         align-items: center;
         .values {
             width: 33.33%;
-            height: 18%;
+            height: 20%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -19,6 +19,9 @@ main {
             color: white;
             background: radial-gradient(rgba(0, 0, 255, 0.37), white, white);
             text-shadow: 10px 10px 10px skyblue;
+            &:last-child {
+                color: gray;
+            }
         }
     }
 }

@@ -51,10 +51,12 @@ header .headerWrapper {
 }
 header .headerWrapper p {
   padding-left: 1%;
+  color: gray;
 }
 header .headerWrapper p span {
   font-size: 37px;
   font-weight: 500;
+  color: black;
 }
 
 main {
@@ -71,7 +73,7 @@ main .menuWrapper {
   align-items: center;
 }
 main .menuWrapper a:visited, main .menuWrapper a:link {
-  color: black;
+  color: gray;
 }
 main .menuWrapper a .menu {
   display: flex;
@@ -169,7 +171,7 @@ main .valuesWrapper {
 }
 main .valuesWrapper .values {
   width: 33.33%;
-  height: 18%;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,6 +179,9 @@ main .valuesWrapper .values {
   color: white;
   background: radial-gradient(rgba(0, 0, 255, 0.37), white, white);
   text-shadow: 10px 10px 10px skyblue;
+}
+main .valuesWrapper .values:last-child {
+  color: gray;
 }
 
 * {
