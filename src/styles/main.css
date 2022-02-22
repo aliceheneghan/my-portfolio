@@ -112,16 +112,16 @@ main .menuWrapper .tool {
   bottom: 29%;
 }
 main .menuWrapper .femTech {
-  width: 2.3%;
-  height: 8%;
+  width: 2.5%;
+  height: 8.6%;
   position: absolute;
   z-index: 1;
   bottom: 30.4%;
   left: 33.5%;
 }
 main .menuWrapper .femTech img {
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
 }
 main .menuWrapper .projects {
   width: 9%;
