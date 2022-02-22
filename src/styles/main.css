@@ -44,15 +44,15 @@ header {
   display: flex;
   justify-content: center;
 }
-header .homeHeader {
+header .headerWrapper {
   width: 90%;
   display: flex;
   align-items: center;
 }
-header .homeHeader p {
+header .headerWrapper p {
   padding-left: 1%;
 }
-header .homeHeader p span {
+header .headerWrapper p span {
   font-size: 37px;
   font-weight: 500;
 }
