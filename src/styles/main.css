@@ -69,17 +69,20 @@ main .menuWrapper {
   justify-content: center;
   align-items: center;
 }
-main .menuWrapper .menu {
+main .menuWrapper a:visited, main .menuWrapper a:link {
+  color: black;
+}
+main .menuWrapper a .menu {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: whitesmoke;
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
 }
-main .menuWrapper .menu:hover {
+main .menuWrapper a .menu:hover {
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
 }
-main .menuWrapper .core {
+main .menuWrapper a .core {
   width: 10%;
   height: 12%;
   position: absolute;
@@ -87,7 +90,7 @@ main .menuWrapper .core {
   left: 40.5%;
   z-index: 4;
 }
-main .menuWrapper .time {
+main .menuWrapper a .time {
   width: 12%;
   height: 8%;
   position: absolute;
@@ -95,7 +98,7 @@ main .menuWrapper .time {
   top: 35%;
   right: 40%;
 }
-main .menuWrapper .drivers {
+main .menuWrapper a .drivers {
   width: 9.5%;
   height: 11%;
   position: absolute;
@@ -103,7 +106,7 @@ main .menuWrapper .drivers {
   bottom: 38%;
   left: 35%;
 }
-main .menuWrapper .tool {
+main .menuWrapper a .tool {
   width: 7%;
   height: 22%;
   position: absolute;
@@ -111,7 +114,7 @@ main .menuWrapper .tool {
   right: 46%;
   bottom: 29%;
 }
-main .menuWrapper .femTech {
+main .menuWrapper a .femTech {
   width: 2.5%;
   height: 8.6%;
   position: absolute;
@@ -119,11 +122,11 @@ main .menuWrapper .femTech {
   bottom: 31%;
   left: 33.1%;
 }
-main .menuWrapper .femTech img {
+main .menuWrapper a .femTech img {
   width: 70%;
   height: 70%;
 }
-main .menuWrapper .projects {
+main .menuWrapper a .projects {
   width: 9%;
   height: 15%;
   position: absolute;
@@ -131,7 +134,7 @@ main .menuWrapper .projects {
   right: 37.5%;
   bottom: 34%;
 }
-main .menuWrapper .education {
+main .menuWrapper a .education {
   width: 2%;
   height: 24%;
   position: absolute;
@@ -141,7 +144,7 @@ main .menuWrapper .education {
   writing-mode: vertical-lr;
   text-orientation: upright;
 }
-main .menuWrapper .contact {
+main .menuWrapper a .contact {
   width: 11%;
   height: 5%;
   position: absolute;

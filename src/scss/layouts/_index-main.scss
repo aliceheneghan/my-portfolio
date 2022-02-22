@@ -9,94 +9,99 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        .menu {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: $menu-bg-colour;
-            box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6);
-            &:hover {
-                box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6), 6px 6px 6px skyblue;
+        a {
+            &:visited, &:link {
+                color: black;
             }
-        }
-        // Core values should be central-button
-        .core {
-            width: 10%;
-            height: 12%;
-            position: absolute;
-            top: 41%;
-            left: 40.5%;
-            z-index: 4;
-
-        }
-        // Time & Travel should be top-right
-        .time {
-            width: 12%;
-            height: 8%;
-            position: absolute;
-            z-index: 3;
-            top: 35%;
-            right: 40%;
-        }
-        // Drivers should be bottom-left
-        .drivers {
-            width: 9.5%;
-            height: 11%;
-            position: absolute;
-            z-index: 2;
-            bottom: 38%;
-            left: 35%;
-        }
-        // Tool Stack should be bottom-right
-        .tool {
-            width: 7%;
-            height: 22%;
-            position: absolute;
-            z-index: 2;
-            right: 46%;
-            bottom: 29%;
-        }
-        // Females in Tech should be bottom-left from Drivers
-        .femTech {
-            width: 2.5%;
-            height: 8.6%;
-            position: absolute;
-            z-index: 1;
-            bottom: 31%;
-            left: 33.1%;        
-            img {
-                width: 70%;
-                height: 70%;
+            .menu {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $menu-bg-colour;
+                box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6);
+                &:hover {
+                    box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6), 6px 6px 6px skyblue;
+                }
             }
-        }
-        // Projects should be right of Tool Stack
-        .projects {
-            width: 9%;
-            height: 15%;
-            position: absolute;
-            z-index: 1;
-            right: 37.5%;
-            bottom: 34%;
-        }
-        // Education should be top-left
-        .education {
-            width: 2%;
-            height: 24%;
-            position: absolute;
-            z-index: 1;
-            top: 23%;
-            left: 38.8%;
-            writing-mode: vertical-lr;
-            text-orientation: upright;
-        }
-        // Contact should be bottom-right of Tool Stack
-        .contact {
-            width: 11%;
-            height: 5%;
-            position: absolute;
-            z-index: 1;
-            right: 49%;
-            bottom: 24.9%;
+            // Core values should be central-button
+            .core {
+                width: 10%;
+                height: 12%;
+                position: absolute;
+                top: 41%;
+                left: 40.5%;
+                z-index: 4;
+    
+            }
+            // Time & Travel should be top-right
+            .time {
+                width: 12%;
+                height: 8%;
+                position: absolute;
+                z-index: 3;
+                top: 35%;
+                right: 40%;
+            }
+            // Drivers should be bottom-left
+            .drivers {
+                width: 9.5%;
+                height: 11%;
+                position: absolute;
+                z-index: 2;
+                bottom: 38%;
+                left: 35%;
+            }
+            // Tool Stack should be bottom-right
+            .tool {
+                width: 7%;
+                height: 22%;
+                position: absolute;
+                z-index: 2;
+                right: 46%;
+                bottom: 29%;
+            }
+            // Females in Tech should be bottom-left from Drivers
+            .femTech {
+                width: 2.5%;
+                height: 8.6%;
+                position: absolute;
+                z-index: 1;
+                bottom: 31%;
+                left: 33.1%;        
+                img {
+                    width: 70%;
+                    height: 70%;
+                }
+            }
+            // Projects should be right of Tool Stack
+            .projects {
+                width: 9%;
+                height: 15%;
+                position: absolute;
+                z-index: 1;
+                right: 37.5%;
+                bottom: 34%;
+            }
+            // Education should be top-left
+            .education {
+                width: 2%;
+                height: 24%;
+                position: absolute;
+                z-index: 1;
+                top: 23%;
+                left: 38.8%;
+                writing-mode: vertical-lr;
+                text-orientation: upright;
+            }
+            // Contact should be bottom-right of Tool Stack
+            .contact {
+                width: 11%;
+                height: 5%;
+                position: absolute;
+                z-index: 1;
+                right: 49%;
+                bottom: 24.9%;
+            }
         }
     }
-}
+        }
