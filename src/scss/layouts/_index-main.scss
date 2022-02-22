@@ -14,7 +14,6 @@ main {
             justify-content: center;
             align-items: center;
             background-color: $menu-bg-colour;
-            // outline: 1px #D4AF37 solid;
             box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6);
             &:hover {
                 box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6), 6px 6px 6px skyblue;
@@ -64,14 +63,10 @@ main {
             position: absolute;
             z-index: 1;
             bottom: 30.4%;
-            left: 33.5%;
-            border: none;
-            outline: none;
-            box-shadow: none;
-            background-color: none;          
+            left: 33.5%;        
             img {
-                width: 100%;
-                height: 100%;
+                width: 80%;
+                height: 80%;
             }
         }
         // Projects should be right of Tool Stack
