@@ -1,8 +1,8 @@
-// Logo, name and caption
+// Homepage header = logo, name and caption
 header {
     display: flex;
     justify-content: center;
-    .headerContent { 
+    .homeHeader { 
         // created margin by setting width to 90% and centering
         width: 90%; 
         display: flex;
