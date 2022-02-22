@@ -154,20 +154,29 @@ main .menuWrapper a .contact {
   bottom: 24.9%;
 }
 
-.valuesWrapper {
+main {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .valuesWrapper {
+  width: 90%;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   align-items: center;
 }
-.valuesWrapper .values {
-  width: 50%;
-  height: 20%;
+main .valuesWrapper .values {
+  width: 33.33%;
+  height: 18%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 10px 10px 3px skyblue;
+  font-size: 20px;
+  color: white;
+  background: radial-gradient(rgba(0, 0, 255, 0.37), white, white);
+  text-shadow: 10px 10px 10px skyblue;
 }
 
 * {
@@ -190,14 +199,6 @@ body {
   grid-template-rows: 10vh 100% 6vh;
   grid-template-areas: "header" "main" "footer";
   background-color: §bg-colour;
-  /* main {
-      .fifty {
-          grid-template-columns: 50% 50%;
-          grid-template-rows: 100%;
-          grid-template-areas: 
-              "mainLeft mainRight";
-      }
-  } */
 }
 body header {
   display: flex;
