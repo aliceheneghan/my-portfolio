@@ -1,9 +1,12 @@
 // Homepage and title font
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+// Alternative font
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@0;1&display=swap');
 
 // Homepage and titles font
 $title-font: 'Maven Pro', sans-serif;
+$alt-font: 'Ubuntu Mono', monospace;
 
-.homeHeader, .menuWrapper {
-    font-family: $title-font;
+.headerWrapper, .menuWrapper {
+    font-family: $alt-font;
 }
