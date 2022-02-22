@@ -40,6 +40,7 @@
 }
 
 header {
+  grid-area: header;
   display: flex;
   justify-content: center;
 }
@@ -169,9 +170,9 @@ body {
   width: 100vw;
   height: 88vh;
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 10vh 100% 6vh;
-  grid-template-areas: "header" "main" "footer";
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
   background-color: §bg-colour;
 }
 body header {

@@ -1,5 +1,6 @@
-// Homepage header = logo, name and caption
+// Header for all pages = logo + title
 header {
+    grid-area: header;
     display: flex;
     justify-content: center;
     .homeHeader { 
