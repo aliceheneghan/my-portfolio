@@ -1,3 +1,7 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+
 //Vendor
 @import "vendor/__vendor-dir";
 
@@ -33,6 +37,7 @@ body {
         "header"
         "main"
         "footer";
+    font-family: 'Maven Pro', sans-serif;
     background-color: bisque;
     header {
         display: flex;

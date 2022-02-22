@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
 header {
   display: flex;
   justify-content: center;
@@ -9,6 +10,10 @@ header .headerContent {
 }
 header .headerContent p {
   padding-left: 1%;
+}
+header .headerContent p span {
+  font-size: 37px;
+  font-weight: 500;
 }
 
 main {
@@ -162,6 +167,7 @@ body {
   grid-template-columns: 100%;
   grid-template-rows: 10vh 100% 6vh;
   grid-template-areas: "header" "main" "footer";
+  font-family: "Maven Pro", sans-serif;
   background-color: bisque;
 }
 body header {
