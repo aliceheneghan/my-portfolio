@@ -73,7 +73,6 @@ main .menuWrapper .menu {
   justify-content: center;
   align-items: center;
   background-color: #F7CC86;
-  border: 0.5px black solid;
   outline: 3px #D4AF37 solid;
   box-shadow: 6px 6px 6px skyblue, inset 3px 3px 25px rgba(0, 0, 255, 0.6);
 }
