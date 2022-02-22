@@ -176,13 +176,20 @@ main .valuesWrapper .values {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
-  color: white;
-  background: radial-gradient(rgba(0, 0, 255, 0.37), white, white);
-  text-shadow: 10px 10px 10px skyblue;
 }
-main .valuesWrapper .values:last-child {
-  color: gray;
+main .valuesWrapper .values div {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: grey;
+  background-color: whitesmoke;
+  box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
+}
+main .valuesWrapper .values div:last-child {
+  width: 70%;
 }
 
 * {
