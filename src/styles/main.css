@@ -170,7 +170,6 @@ main .valuesWrapper {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px red solid;
 }
 main .valuesWrapper .values {
   width: 33.33%;
@@ -178,10 +177,8 @@ main .valuesWrapper .values {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-main .valuesWrapper .values div {
   width: 50%;
-  height: 50%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,9 +186,6 @@ main .valuesWrapper .values div {
   color: grey;
   background-color: whitesmoke;
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
-}
-main .valuesWrapper .values div:last-child {
-  width: 70%;
 }
 
 * {
