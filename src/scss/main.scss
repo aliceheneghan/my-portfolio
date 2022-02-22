@@ -38,10 +38,12 @@ body {
         display: flex;
         align-items: center;
     }
-    main {
+    /* main {
         .fifty {
             grid-template-columns: 50% 50%;
-            grid-template-rows: repeat(3, 33.33%);
+            grid-template-rows: 100%;
+            grid-template-areas: 
+                "mainLeft mainRight";
         }
-    }
+    } */
 }
