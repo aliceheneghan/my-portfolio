@@ -92,18 +92,18 @@ main {
   justify-content: center;
   align-items: center;
 }
-main .valuesWrapper, main .tStackWrapper, main .menuWrapper {
-  width: 60%;
+main .valuesWrapper, main .tStackWrapper, main .menuWrapper, main .historyWrapper {
+  width: 70%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-main .valuesWrapper .core, main .valuesWrapper .time, main .valuesWrapper .drivers, main .valuesWrapper .tool, main .valuesWrapper .femTech, main .valuesWrapper .projects, main .valuesWrapper .education, main .valuesWrapper .contact, main .tStackWrapper .core, main .tStackWrapper .time, main .tStackWrapper .drivers, main .tStackWrapper .tool, main .tStackWrapper .femTech, main .tStackWrapper .projects, main .tStackWrapper .education, main .tStackWrapper .contact, main .menuWrapper .core, main .menuWrapper .time, main .menuWrapper .drivers, main .menuWrapper .tool, main .menuWrapper .femTech, main .menuWrapper .projects, main .menuWrapper .education, main .menuWrapper .contact {
+main .valuesWrapper .core, main .valuesWrapper .time, main .valuesWrapper .drivers, main .valuesWrapper .tool, main .valuesWrapper .femTech, main .valuesWrapper .projects, main .valuesWrapper .education, main .valuesWrapper .contact, main .tStackWrapper .core, main .tStackWrapper .time, main .tStackWrapper .drivers, main .tStackWrapper .tool, main .tStackWrapper .femTech, main .tStackWrapper .projects, main .tStackWrapper .education, main .tStackWrapper .contact, main .menuWrapper .core, main .menuWrapper .time, main .menuWrapper .drivers, main .menuWrapper .tool, main .menuWrapper .femTech, main .menuWrapper .projects, main .menuWrapper .education, main .menuWrapper .contact, main .historyWrapper .core, main .historyWrapper .time, main .historyWrapper .drivers, main .historyWrapper .tool, main .historyWrapper .femTech, main .historyWrapper .projects, main .historyWrapper .education, main .historyWrapper .contact {
   font-weight: 500;
 }
-main .valuesWrapper .core, main .tStackWrapper .core, main .menuWrapper .core {
+main .valuesWrapper .core, main .tStackWrapper .core, main .menuWrapper .core, main .historyWrapper .core {
   width: 10%;
   height: 12%;
   position: absolute;
@@ -111,7 +111,7 @@ main .valuesWrapper .core, main .tStackWrapper .core, main .menuWrapper .core {
   left: 40.5%;
   z-index: 4;
 }
-main .valuesWrapper .time, main .tStackWrapper .time, main .menuWrapper .time {
+main .valuesWrapper .time, main .tStackWrapper .time, main .menuWrapper .time, main .historyWrapper .time {
   width: 12%;
   height: 8%;
   position: absolute;
@@ -119,7 +119,7 @@ main .valuesWrapper .time, main .tStackWrapper .time, main .menuWrapper .time {
   top: 35%;
   right: 40%;
 }
-main .valuesWrapper .drivers, main .tStackWrapper .drivers, main .menuWrapper .drivers {
+main .valuesWrapper .drivers, main .tStackWrapper .drivers, main .menuWrapper .drivers, main .historyWrapper .drivers {
   width: 9.5%;
   height: 11%;
   position: absolute;
@@ -127,7 +127,7 @@ main .valuesWrapper .drivers, main .tStackWrapper .drivers, main .menuWrapper .d
   bottom: 38%;
   left: 35%;
 }
-main .valuesWrapper .tool, main .tStackWrapper .tool, main .menuWrapper .tool {
+main .valuesWrapper .tool, main .tStackWrapper .tool, main .menuWrapper .tool, main .historyWrapper .tool {
   width: 7%;
   height: 22%;
   position: absolute;
@@ -135,7 +135,7 @@ main .valuesWrapper .tool, main .tStackWrapper .tool, main .menuWrapper .tool {
   right: 46%;
   bottom: 29%;
 }
-main .valuesWrapper .femTech, main .tStackWrapper .femTech, main .menuWrapper .femTech {
+main .valuesWrapper .femTech, main .tStackWrapper .femTech, main .menuWrapper .femTech, main .historyWrapper .femTech {
   width: 2.5%;
   height: 8.6%;
   position: absolute;
@@ -143,11 +143,11 @@ main .valuesWrapper .femTech, main .tStackWrapper .femTech, main .menuWrapper .f
   bottom: 31%;
   left: 33.1%;
 }
-main .valuesWrapper .femTech img, main .tStackWrapper .femTech img, main .menuWrapper .femTech img {
+main .valuesWrapper .femTech img, main .tStackWrapper .femTech img, main .menuWrapper .femTech img, main .historyWrapper .femTech img {
   width: 70%;
   height: 70%;
 }
-main .valuesWrapper .projects, main .tStackWrapper .projects, main .menuWrapper .projects {
+main .valuesWrapper .projects, main .tStackWrapper .projects, main .menuWrapper .projects, main .historyWrapper .projects {
   width: 9%;
   height: 15%;
   position: absolute;
@@ -155,7 +155,7 @@ main .valuesWrapper .projects, main .tStackWrapper .projects, main .menuWrapper 
   right: 37.5%;
   bottom: 34%;
 }
-main .valuesWrapper .education, main .tStackWrapper .education, main .menuWrapper .education {
+main .valuesWrapper .education, main .tStackWrapper .education, main .menuWrapper .education, main .historyWrapper .education {
   width: 2%;
   height: 24%;
   position: absolute;
@@ -165,7 +165,7 @@ main .valuesWrapper .education, main .tStackWrapper .education, main .menuWrappe
   writing-mode: vertical-lr;
   text-orientation: upright;
 }
-main .valuesWrapper .contact, main .tStackWrapper .contact, main .menuWrapper .contact {
+main .valuesWrapper .contact, main .tStackWrapper .contact, main .menuWrapper .contact, main .historyWrapper .contact {
   width: 11%;
   height: 5%;
   position: absolute;
@@ -173,21 +173,18 @@ main .valuesWrapper .contact, main .tStackWrapper .contact, main .menuWrapper .c
   right: 49%;
   bottom: 24.9%;
 }
-
-.values {
+main .valuesWrapper .values, main .tStackWrapper .values, main .menuWrapper .values, main .historyWrapper .values {
   width: 47%;
   height: 9%;
 }
-
-.tStack {
+main .valuesWrapper .tStack, main .tStackWrapper .tStack, main .menuWrapper .tStack, main .historyWrapper .tStack {
   width: 15%;
   height: 15%;
 }
-.tStack:nth-child(1n+4) {
+main .valuesWrapper .tStack:nth-child(1n+4), main .tStackWrapper .tStack:nth-child(1n+4), main .menuWrapper .tStack:nth-child(1n+4), main .historyWrapper .tStack:nth-child(1n+4) {
   filter: grayscale(1);
 }
-
-.contactWrapper {
+main .valuesWrapper .contactWrapper, main .tStackWrapper .contactWrapper, main .menuWrapper .contactWrapper, main .historyWrapper .contactWrapper {
   width: 60%;
   height: 60%;
   display: flex;
@@ -195,10 +192,32 @@ main .valuesWrapper .contact, main .tStackWrapper .contact, main .menuWrapper .c
   justify-content: flex-start;
   align-items: center;
 }
-.contactWrapper .contactMe {
+main .valuesWrapper .contactWrapper .contactMe, main .tStackWrapper .contactWrapper .contactMe, main .menuWrapper .contactWrapper .contactMe, main .historyWrapper .contactWrapper .contactMe {
   width: 40%;
   height: 15%;
   margin: 1%;
+}
+main .valuesWrapper .femTechQuote, main .tStackWrapper .femTechQuote, main .menuWrapper .femTechQuote, main .historyWrapper .femTechQuote {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8%;
+  background-color: whitesmoke;
+  box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
+  font-weight: 600;
+  font-size: 22px;
+  color: #87c924;
+}
+main .valuesWrapper .nineties div, main .tStackWrapper .nineties div, main .menuWrapper .nineties div, main .historyWrapper .nineties div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .valuesWrapper .nineties div img, main .tStackWrapper .nineties div img, main .menuWrapper .nineties div img, main .historyWrapper .nineties div img {
+  width: 20%;
+  height: 20%;
 }
 
 * {

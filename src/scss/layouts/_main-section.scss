@@ -5,8 +5,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    .valuesWrapper, .tStackWrapper, .menuWrapper {
-        width: 60%; // 60% of main and centered to create side margins
+    .valuesWrapper, .tStackWrapper, .menuWrapper, .historyWrapper {
+        width: 70%; // 60% of main and centered to create side margins
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -94,16 +94,14 @@ main {
         right: 49%;
         bottom: 24.9%;
     }
-}
-}
 // Core Values Main
-.values {
-    width: 47%;
-    height: 9%;
-    // background: radial-gradient(rgba(0, 0, 255, 0.37), white, white);
-    //text-shadow: 1px 1px 2px skyblue, 0 0 1em skyblue, 0 0 0.2em black;
-    //text-shadow: 10px 10px 10px skyblue;
-}
+    .values {
+        width: 47%;
+        height: 9%;
+        // background: radial-gradient(rgba(0, 0, 255, 0.37), white, white);
+        //text-shadow: 1px 1px 2px skyblue, 0 0 1em skyblue, 0 0 0.2em black;
+        //text-shadow: 10px 10px 10px skyblue;
+    }
 // Tool Stack Main
     .tStack {
         width: 15%;
@@ -114,7 +112,7 @@ main {
         }
     }
 // Contact main
-.contactWrapper {
+    .contactWrapper {
         width: 60%; // 60% of main and centered to create side margins
         height: 60%;
         display: flex;
@@ -125,5 +123,34 @@ main {
             width: 40%;
             height: 15%;
             margin: 1%;
+        }
+    }
+// Women in Tech Main
+    .femTechQuote {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8%;
+        background-color: $menu-bg-colour;
+        box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6);
+        font-weight: 600;
+        font-size: 22px;
+        color: rgb(135, 201, 36);
+        }
+    .nineties {
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 20%;
+                height: 20%;
+            }
+        }
+            
+        
+    }
     }
 }

@@ -10,27 +10,47 @@ recap:
 	- forms
 	
 General:
-	- create a box style to be applied
-	- change body vw to fr
+	- create a box style to be applied x
+	- change body vw to fr x
 	
+Tool Stack:
+	- add box style x
+	- grayscale unaccomplished tools x
+	- 
+
+Contact:
+	- html content x
+	- add box style x
+	- link content
+
+
 Core Values:
 	- set div width for rows/columns x
 	- Enter text x
 	- background gradient x
-	- space divs slightly
+	- convert values to purpleIce x
+	- space divs slightly x
 	
 Drivers:
 	- use menu div styling for drivers page
 
 Homepage:
-	- increase menu font weight	
+	- increase menu font weight x
 	- increase transparency of fem img
 	
 Header:
-	- different font for non-homepage headers?
+	- link logo to homepage x
+	- add hover to link x
+	- different font for non-homepage headers? NO
 	- increase height x
+	- fix header
 Notes:
 	- logo is not responsive
 	- text is not responsive
+	- if I increase page height then I have to update all percentages
+	- make home link more obvious
 	
-	
+Presentation:
+	- who thinks it's pink
+	- wanted the retro/geek look in a clean modern way
+	- just to be clear the fist is a symbol of political solidarity and not homosexuality
