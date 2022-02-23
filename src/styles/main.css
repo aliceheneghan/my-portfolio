@@ -47,16 +47,12 @@
   background-color: whitesmoke;
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
   font-size: 17px;
+}
+
+.ice {
   color: grey;
   text-shadow: 1px 1px 8px skyblue, 0 0 1em skyblue;
 }
-.purple a {
-  text-decoration: none;
-}
-.purple a:visited, .purple a:link {
-  color: gray;
-}
-
 .ice:hover {
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
 }
@@ -89,6 +85,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+main a {
+  text-decoration: none;
 }
 main .valuesWrapper, main .tStackWrapper, main .menuWrapper, main .historyWrapper {
   width: 70%;
@@ -195,12 +194,12 @@ main .contactWrapper .contactMe {
   height: 5%;
   margin: 1%;
 }
+main .contactWrapper .contactMe a:visited, main .contactWrapper .contactMe a:link {
+  color: gray;
+}
 main .femTechQuote {
   width: 100%;
-  height: 15%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 10%;
   padding: 8%;
   background-color: whitesmoke;
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
@@ -208,8 +207,11 @@ main .femTechQuote {
   font-size: 22px;
   color: #87c924;
 }
-main .femTechQuote a {
+main .femTechQuote sup {
   color: #87c924;
+}
+main .femTechQuote a {
+  color: gray;
 }
 main .nineties div {
   display: flex;
