@@ -191,13 +191,14 @@ main .valuesWrapper .values {
 }
 
 body {
-  width: 100vw;
-  height: 88vh;
+  width: 1fr;
+  height: 100vh;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 15vh 100% 6vh;
   grid-template-areas: "header" "main" "footer";
   background-color: §bg-colour;
+  border: 1px red solid;
 }
 
 /*# sourceMappingURL=main.css.map */
