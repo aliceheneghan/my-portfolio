@@ -11,6 +11,9 @@
   display: flex;
   flex-flow: row wrap;
 }
+.logo:hover {
+  box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
+}
 .logo div {
   width: 50%;
   height: 50%;
