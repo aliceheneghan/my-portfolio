@@ -5,7 +5,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    .valuesWrapper, .tStackWrapper, .menuWrapper {
+    .valuesWrapper, .tStackWrapper, .menuWrapper, .contactWrapper {
         width: 60%; // 60% of main and centered to create side margins
         height: 100%;
         display: flex;
@@ -101,13 +101,21 @@ main {
     }
 }
 }
-// Other pages Main
-.values, .tStack {
-    width: 50%;
-    height: 8%;
+// Core Values Main
+.values {
+    width: 47%;
+    height: 9%;
     // background: radial-gradient(rgba(0, 0, 255, 0.37), white, white);
     //text-shadow: 1px 1px 2px skyblue, 0 0 1em skyblue, 0 0 0.2em black;
     //text-shadow: 10px 10px 10px skyblue;
 }
 // Tool Stack Main
-
+    .tStack {
+        width: 15%;
+        height: 15%;
+            // grayscale for tools that have not yet been learned
+            &:nth-child(1n+4) {
+                filter: grayscale(1);
+        }
+    }
+// Contact main
