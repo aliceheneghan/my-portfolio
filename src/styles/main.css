@@ -50,6 +50,9 @@
   color: grey;
   text-shadow: 1px 1px 8px skyblue, 0 0 1em skyblue;
 }
+.purple a {
+  text-decoration: none;
+}
 .purple a:visited, .purple a:link {
   color: gray;
 }
@@ -94,9 +97,6 @@ main .valuesWrapper, main .tStackWrapper, main .menuWrapper, main .historyWrappe
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
-main .valuesWrapper a, main .tStackWrapper a, main .menuWrapper a, main .historyWrapper a {
-  text-decoration: none;
 }
 main .valuesWrapper .core, main .valuesWrapper .time, main .valuesWrapper .drivers, main .valuesWrapper .tool, main .valuesWrapper .femTech, main .valuesWrapper .projects, main .valuesWrapper .education, main .valuesWrapper .contact, main .tStackWrapper .core, main .tStackWrapper .time, main .tStackWrapper .drivers, main .tStackWrapper .tool, main .tStackWrapper .femTech, main .tStackWrapper .projects, main .tStackWrapper .education, main .tStackWrapper .contact, main .menuWrapper .core, main .menuWrapper .time, main .menuWrapper .drivers, main .menuWrapper .tool, main .menuWrapper .femTech, main .menuWrapper .projects, main .menuWrapper .education, main .menuWrapper .contact, main .historyWrapper .core, main .historyWrapper .time, main .historyWrapper .drivers, main .historyWrapper .tool, main .historyWrapper .femTech, main .historyWrapper .projects, main .historyWrapper .education, main .historyWrapper .contact {
   font-weight: 500;
@@ -145,7 +145,7 @@ main .valuesWrapper .femTech img, main .tStackWrapper .femTech img, main .menuWr
   width: 70%;
   height: 70%;
 }
-main .valuesWrapper .projects, main .tStackWrapper .projects, main .menuWrapper .projects, main .historyWrapper .projects {
+main .projects {
   width: 9%;
   height: 15%;
   position: absolute;
@@ -153,7 +153,7 @@ main .valuesWrapper .projects, main .tStackWrapper .projects, main .menuWrapper 
   right: 37.5%;
   bottom: 34%;
 }
-main .valuesWrapper .education, main .tStackWrapper .education, main .menuWrapper .education, main .historyWrapper .education {
+main .education {
   width: 2%;
   height: 24%;
   position: absolute;
@@ -163,7 +163,7 @@ main .valuesWrapper .education, main .tStackWrapper .education, main .menuWrappe
   writing-mode: vertical-lr;
   text-orientation: upright;
 }
-main .valuesWrapper .contact, main .tStackWrapper .contact, main .menuWrapper .contact, main .historyWrapper .contact {
+main .contact {
   width: 11%;
   height: 5%;
   position: absolute;
@@ -171,31 +171,31 @@ main .valuesWrapper .contact, main .tStackWrapper .contact, main .menuWrapper .c
   right: 49%;
   bottom: 24.9%;
 }
-main .valuesWrapper .values, main .tStackWrapper .values, main .menuWrapper .values, main .historyWrapper .values {
+main .values {
   width: 47%;
   height: 9%;
 }
-main .valuesWrapper .tStack, main .tStackWrapper .tStack, main .menuWrapper .tStack, main .historyWrapper .tStack {
-  width: 15%;
-  height: 15%;
+main .tStack {
+  width: 11%;
+  height: 8%;
 }
-main .valuesWrapper .tStack:nth-child(1n+4), main .tStackWrapper .tStack:nth-child(1n+4), main .menuWrapper .tStack:nth-child(1n+4), main .historyWrapper .tStack:nth-child(1n+4) {
+main .tStack:nth-child(1n+4) {
   filter: grayscale(1);
 }
-main .valuesWrapper .contactWrapper, main .tStackWrapper .contactWrapper, main .menuWrapper .contactWrapper, main .historyWrapper .contactWrapper {
+main .contactWrapper {
   width: 60%;
-  height: 60%;
+  height: 85%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
-main .valuesWrapper .contactWrapper .contactMe, main .tStackWrapper .contactWrapper .contactMe, main .menuWrapper .contactWrapper .contactMe, main .historyWrapper .contactWrapper .contactMe {
-  width: 40%;
-  height: 15%;
+main .contactWrapper .contactMe {
+  width: 30%;
+  height: 5%;
   margin: 1%;
 }
-main .valuesWrapper .femTechQuote, main .tStackWrapper .femTechQuote, main .menuWrapper .femTechQuote, main .historyWrapper .femTechQuote {
+main .femTechQuote {
   width: 100%;
   height: 15%;
   display: flex;
@@ -208,19 +208,19 @@ main .valuesWrapper .femTechQuote, main .tStackWrapper .femTechQuote, main .menu
   font-size: 22px;
   color: #87c924;
 }
-main .valuesWrapper .femTechQuote a, main .tStackWrapper .femTechQuote a, main .menuWrapper .femTechQuote a, main .historyWrapper .femTechQuote a {
+main .femTechQuote a {
   color: #87c924;
 }
-main .valuesWrapper .nineties div, main .tStackWrapper .nineties div, main .menuWrapper .nineties div, main .historyWrapper .nineties div {
+main .nineties div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .valuesWrapper .nineties div img, main .tStackWrapper .nineties div img, main .menuWrapper .nineties div img, main .historyWrapper .nineties div img {
+main .nineties div img {
   width: 20%;
   height: 20%;
 }
-main .valuesWrapper .nineties div img:hover, main .tStackWrapper .nineties div img:hover, main .menuWrapper .nineties div img:hover, main .historyWrapper .nineties div img:hover {
+main .nineties div img:hover {
   width: 150%;
   height: 150%;
 }

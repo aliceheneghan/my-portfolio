@@ -12,9 +12,7 @@ main {
         flex-direction: column;
         justify-content: space-around;   
         align-items: center;
-        a {
-            text-decoration: none;
-        }
+        
 // Homepage Main 
     .core, .time, .drivers, .tool, .femTech, .projects, .education, .contact {
         font-weight: 500;
@@ -68,6 +66,7 @@ main {
              height: 70%;
         }
     }
+    }
     // Projects should be right of Tool Stack
     .projects {
         width: 9%;
@@ -107,8 +106,8 @@ main {
     }
 // Tool Stack Main
     .tStack {
-        width: 15%;
-        height: 15%;
+        width: 11%;
+        height: 8%;
             // grayscale for tools that have not yet been learned
             &:nth-child(1n+4) {
                 filter: grayscale(1);
@@ -117,14 +116,14 @@ main {
 // Contact main
     .contactWrapper {
         width: 60%; // 60% of main and centered to create side margins
-        height: 60%;
+        height: 85%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;   
         align-items: center;
         .contactMe {
-            width: 40%;
-            height: 15%;
+            width: 30%;
+            height: 5%;
             margin: 1%;
         }
     }
@@ -160,8 +159,5 @@ main {
                 }
             }
         }
-            
-        
-    }
     }
 }
