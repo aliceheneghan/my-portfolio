@@ -77,6 +77,8 @@ header .headerWrapper .title p {
 }
 
 main {
+  width: 100%;
+  display: flex;
   grid-area: main;
   display: flex;
   justify-content: center;
@@ -163,12 +165,7 @@ main .menuWrapper a .contact {
   bottom: 24.9%;
 }
 
-main {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-main .valuesWrapper {
+.valuesWrapper {
   width: 60%;
   height: 100%;
   display: flex;
@@ -176,7 +173,7 @@ main .valuesWrapper {
   justify-content: center;
   align-items: center;
 }
-main .valuesWrapper .values {
+.valuesWrapper .values, .valuesWrapper .tStack {
   width: 50%;
   height: 20%;
 }

@@ -1,8 +1,12 @@
 main {
+    width: 100%;
+    display: flex;
     grid-area: main;
     display: flex;
     justify-content: center;
     align-items: center;
+
+// Homepage Main 
     .menuWrapper {
         width: 70%;
         height: 70%;
@@ -94,3 +98,19 @@ main {
         }
     }
         }
+// Core Values Main
+    .valuesWrapper {
+        width: 60%; // 60% of main and centered to create side margins
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+        align-items: center;
+        .values, .tStack {
+            width: 50%;
+            height: 20%;
+            // background: radial-gradient(rgba(0, 0, 255, 0.37), white, white);
+            //text-shadow: 1px 1px 2px skyblue, 0 0 1em skyblue, 0 0 0.2em black;
+            //text-shadow: 10px 10px 10px skyblue;
+        }
+    }
