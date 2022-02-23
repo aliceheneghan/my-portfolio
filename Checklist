@@ -1,0 +1,36 @@
+questions:
+	- run gh pages command and add link
+	- normalize
+	- meta data: name, keywords & ?
+
+recap:
+	- animation
+	- media query
+	- drawing
+	- forms
+	
+General:
+	- create a box style to be applied
+	- change body vw to fr
+	
+Core Values:
+	- set div width for rows/columns x
+	- Enter text x
+	- background gradient x
+	- space divs slightly
+	
+Drivers:
+	- use menu div styling for drivers page
+
+Homepage:
+	- increase menu font weight	
+	- increase transparency of fem img
+	
+Header:
+	- different font for non-homepage headers?
+	- increase height x
+Notes:
+	- logo is not responsive
+	- text is not responsive
+	
+	

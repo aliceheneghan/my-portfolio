@@ -77,14 +77,14 @@ main .menuWrapper {
 main .menuWrapper a:visited, main .menuWrapper a:link {
   color: gray;
 }
-main .menuWrapper a .menu {
+main .menuWrapper a .purpleIce {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: whitesmoke;
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
 }
-main .menuWrapper a .menu:hover {
+main .menuWrapper a .purpleIce:hover {
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
 }
 main .menuWrapper a .core {
