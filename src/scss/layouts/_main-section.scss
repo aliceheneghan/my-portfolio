@@ -147,6 +147,10 @@ main {
             img {
                 width: 20%;
                 height: 20%;
+                &:hover { // blow up hover effect to match rebel energy
+                    width: 150%;
+                    height: 150%;
+                }
             }
         }
             

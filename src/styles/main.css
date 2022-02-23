@@ -219,6 +219,10 @@ main .valuesWrapper .nineties div img, main .tStackWrapper .nineties div img, ma
   width: 20%;
   height: 20%;
 }
+main .valuesWrapper .nineties div img:hover, main .tStackWrapper .nineties div img:hover, main .menuWrapper .nineties div img:hover, main .historyWrapper .nineties div img:hover {
+  width: 150%;
+  height: 150%;
+}
 
 * {
   margin: 0;
@@ -234,7 +238,7 @@ main .valuesWrapper .nineties div img, main .tStackWrapper .nineties div img, ma
 
 body {
   width: 1fr;
-  height: 100vh;
+  height: 200vh;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 15vh 100% 6vh;
