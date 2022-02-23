@@ -46,6 +46,7 @@
   align-items: center;
   background-color: whitesmoke;
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
+  color: grey;
 }
 .purpleIce:hover {
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
@@ -84,18 +85,6 @@ main .menuWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-main .menuWrapper a {
-  /* .purpleIce {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: $menu-bg-colour;
-      box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6);
-      &:hover {
-          box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6), 6px 6px 6px skyblue;
-      }
-  } */
 }
 main .menuWrapper a:visited, main .menuWrapper a:link {
   color: gray;
@@ -185,23 +174,8 @@ main .valuesWrapper {
   align-items: center;
 }
 main .valuesWrapper .values {
-  width: 33.33%;
-  height: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  color: grey;
-  background-color: whitesmoke;
-  box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
-}
-main .valuesWrapper .values:hover {
-  box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
+  height: 20%;
 }
 
 * {
@@ -224,10 +198,6 @@ body {
   grid-template-rows: 15vh 100% 6vh;
   grid-template-areas: "header" "main" "footer";
   background-color: §bg-colour;
-}
-body header {
-  display: flex;
-  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

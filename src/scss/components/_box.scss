@@ -4,6 +4,7 @@
     align-items: center;
     background-color: $menu-bg-colour;
     box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6);
+    color: grey;
     &:hover {
     box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6), 6px 6px 6px skyblue;
     }
