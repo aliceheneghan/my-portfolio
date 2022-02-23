@@ -1,4 +1,4 @@
-.purpleIce {
+.purple {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,12 +7,15 @@
     font-size: 17px;
     color: grey;
     text-shadow: 1px 1px 8px skyblue, 0 0 1em skyblue;
-    &:hover {
-    box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6), 6px 6px 6px skyblue;
-    }
+    
     a {
         &:visited, &:link {
             color: gray;
         }
     }    
+}
+.ice {
+    &:hover {
+        box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6), 6px 6px 6px skyblue;
+        }
 }

@@ -3,9 +3,6 @@
     height: 6vh;
     display: flex;
     flex-flow: row wrap;
-    &:hover {
-        box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6), 6px 6px 6px skyblue;
-        }
     div {
         width: 50%;
         height: 50%;

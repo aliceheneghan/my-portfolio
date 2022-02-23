@@ -11,9 +11,6 @@
   display: flex;
   flex-flow: row wrap;
 }
-.logo:hover {
-  box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
-}
 .logo div {
   width: 50%;
   height: 50%;
@@ -43,7 +40,7 @@
   box-shadow: inset 2px 2px 5px rgba(0, 0, 255, 0.6);
 }
 
-.purpleIce {
+.purple {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,11 +50,12 @@
   color: grey;
   text-shadow: 1px 1px 8px skyblue, 0 0 1em skyblue;
 }
-.purpleIce:hover {
-  box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
-}
-.purpleIce a:visited, .purpleIce a:link {
+.purple a:visited, .purple a:link {
   color: gray;
+}
+
+.ice:hover {
+  box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
 }
 
 header {
