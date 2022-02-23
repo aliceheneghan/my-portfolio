@@ -56,9 +56,6 @@
 .purpleIce:hover {
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
 }
-.purpleIce a {
-  text-decoration: none;
-}
 .purpleIce a:visited, .purpleIce a:link {
   color: gray;
 }
@@ -99,6 +96,9 @@ main .valuesWrapper, main .tStackWrapper, main .menuWrapper, main .historyWrappe
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+main .valuesWrapper a, main .tStackWrapper a, main .menuWrapper a, main .historyWrapper a {
+  text-decoration: none;
 }
 main .valuesWrapper .core, main .valuesWrapper .time, main .valuesWrapper .drivers, main .valuesWrapper .tool, main .valuesWrapper .femTech, main .valuesWrapper .projects, main .valuesWrapper .education, main .valuesWrapper .contact, main .tStackWrapper .core, main .tStackWrapper .time, main .tStackWrapper .drivers, main .tStackWrapper .tool, main .tStackWrapper .femTech, main .tStackWrapper .projects, main .tStackWrapper .education, main .tStackWrapper .contact, main .menuWrapper .core, main .menuWrapper .time, main .menuWrapper .drivers, main .menuWrapper .tool, main .menuWrapper .femTech, main .menuWrapper .projects, main .menuWrapper .education, main .menuWrapper .contact, main .historyWrapper .core, main .historyWrapper .time, main .historyWrapper .drivers, main .historyWrapper .tool, main .historyWrapper .femTech, main .historyWrapper .projects, main .historyWrapper .education, main .historyWrapper .contact {
   font-weight: 500;
@@ -208,6 +208,9 @@ main .valuesWrapper .femTechQuote, main .tStackWrapper .femTechQuote, main .menu
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
   font-weight: 600;
   font-size: 22px;
+  color: #87c924;
+}
+main .valuesWrapper .femTechQuote a, main .tStackWrapper .femTechQuote a, main .menuWrapper .femTechQuote a, main .historyWrapper .femTechQuote a {
   color: #87c924;
 }
 main .valuesWrapper .nineties div, main .tStackWrapper .nineties div, main .menuWrapper .nineties div, main .historyWrapper .nineties div {

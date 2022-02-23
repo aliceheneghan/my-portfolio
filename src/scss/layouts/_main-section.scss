@@ -12,6 +12,9 @@ main {
         flex-direction: column;
         justify-content: space-around;   
         align-items: center;
+        a {
+            text-decoration: none;
+        }
 // Homepage Main 
     .core, .time, .drivers, .tool, .femTech, .projects, .education, .contact {
         font-weight: 500;
@@ -138,6 +141,10 @@ main {
         font-weight: 600;
         font-size: 22px;
         color: rgb(135, 201, 36);
+        a {
+            
+            color: rgb(135, 201, 36);
+        }
         }
     .nineties {
         div {
