@@ -49,6 +49,7 @@
   align-items: center;
   background-color: whitesmoke;
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
+  font-size: 17px;
   color: grey;
   text-shadow: 1px 1px 8px skyblue, 0 0 1em skyblue, 0 0 0.2em grey;
 }
@@ -90,11 +91,14 @@ main .valuesWrapper, main .tStackWrapper, main .menuWrapper {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 main .valuesWrapper a:visited, main .valuesWrapper a:link, main .tStackWrapper a:visited, main .tStackWrapper a:link, main .menuWrapper a:visited, main .menuWrapper a:link {
   color: gray;
+}
+main .valuesWrapper .core, main .valuesWrapper .time, main .valuesWrapper .drivers, main .valuesWrapper .tool, main .valuesWrapper .femTech, main .valuesWrapper .projects, main .valuesWrapper .education, main .valuesWrapper .contact, main .tStackWrapper .core, main .tStackWrapper .time, main .tStackWrapper .drivers, main .tStackWrapper .tool, main .tStackWrapper .femTech, main .tStackWrapper .projects, main .tStackWrapper .education, main .tStackWrapper .contact, main .menuWrapper .core, main .menuWrapper .time, main .menuWrapper .drivers, main .menuWrapper .tool, main .menuWrapper .femTech, main .menuWrapper .projects, main .menuWrapper .education, main .menuWrapper .contact {
+  font-weight: 500;
 }
 main .valuesWrapper .core, main .tStackWrapper .core, main .menuWrapper .core {
   width: 10%;
@@ -169,7 +173,7 @@ main .valuesWrapper .contact, main .tStackWrapper .contact, main .menuWrapper .c
 
 .values, .tStack {
   width: 50%;
-  height: 20%;
+  height: 8%;
 }
 
 * {
@@ -192,7 +196,6 @@ body {
   grid-template-rows: 15vh 100% 6vh;
   grid-template-areas: "header" "main" "footer";
   background-color: §bg-colour;
-  border: 1px red solid;
 }
 
 /*# sourceMappingURL=main.css.map */

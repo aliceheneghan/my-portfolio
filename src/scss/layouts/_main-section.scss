@@ -10,7 +10,7 @@ main {
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;   
+        justify-content: space-around;   
         align-items: center;
         a {
             &:visited, &:link {
@@ -18,6 +18,9 @@ main {
             }
     }
 // Homepage Main 
+    .core, .time, .drivers, .tool, .femTech, .projects, .education, .contact {
+        font-weight: 500;
+    }
     // Core values should be central-button
     .core {
         width: 10%;
@@ -101,7 +104,7 @@ main {
 // Other pages Main
 .values, .tStack {
     width: 50%;
-    height: 20%;
+    height: 8%;
     // background: radial-gradient(rgba(0, 0, 255, 0.37), white, white);
     //text-shadow: 1px 1px 2px skyblue, 0 0 1em skyblue, 0 0 0.2em black;
     //text-shadow: 10px 10px 10px skyblue;
