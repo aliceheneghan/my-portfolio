@@ -56,6 +56,12 @@
 .purpleIce:hover {
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
 }
+.purpleIce a {
+  text-decoration: none;
+}
+.purpleIce a:visited, .purpleIce a:link {
+  color: gray;
+}
 
 header {
   grid-area: header;

@@ -10,4 +10,10 @@
     &:hover {
     box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6), 6px 6px 6px skyblue;
     }
+    a {
+        text-decoration: none;
+        &:visited, &:link {
+            color: gray;
+        }
+    }    
 }
