@@ -100,9 +100,6 @@ main .valuesWrapper, main .tStackWrapper, main .menuWrapper {
   justify-content: space-around;
   align-items: center;
 }
-main .valuesWrapper a:visited, main .valuesWrapper a:link, main .tStackWrapper a:visited, main .tStackWrapper a:link, main .menuWrapper a:visited, main .menuWrapper a:link {
-  color: gray;
-}
 main .valuesWrapper .core, main .valuesWrapper .time, main .valuesWrapper .drivers, main .valuesWrapper .tool, main .valuesWrapper .femTech, main .valuesWrapper .projects, main .valuesWrapper .education, main .valuesWrapper .contact, main .tStackWrapper .core, main .tStackWrapper .time, main .tStackWrapper .drivers, main .tStackWrapper .tool, main .tStackWrapper .femTech, main .tStackWrapper .projects, main .tStackWrapper .education, main .tStackWrapper .contact, main .menuWrapper .core, main .menuWrapper .time, main .menuWrapper .drivers, main .menuWrapper .tool, main .menuWrapper .femTech, main .menuWrapper .projects, main .menuWrapper .education, main .menuWrapper .contact {
   font-weight: 500;
 }

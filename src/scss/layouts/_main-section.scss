@@ -12,11 +12,6 @@ main {
         flex-direction: column;
         justify-content: space-around;   
         align-items: center;
-        a {
-            &:visited, &:link {
-                color: gray;
-            }
-    }
 // Homepage Main 
     .core, .time, .drivers, .tool, .femTech, .projects, .education, .contact {
         font-weight: 500;
