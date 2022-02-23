@@ -5,7 +5,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    .valuesWrapper, .tStackWrapper, .menuWrapper, .contactWrapper {
+    .valuesWrapper, .tStackWrapper, .menuWrapper {
         width: 60%; // 60% of main and centered to create side margins
         height: 100%;
         display: flex;
@@ -119,3 +119,17 @@ main {
         }
     }
 // Contact main
+.contactWrapper {
+        width: 60%; // 60% of main and centered to create side margins
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;   
+        align-items: center;
+        
+    .contactMe {
+        width: 40%;
+        height: 15%;
+        margin: 1%;
+}
+}
