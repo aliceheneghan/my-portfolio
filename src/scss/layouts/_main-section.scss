@@ -15,7 +15,7 @@ main {
         flex-direction: column;
         justify-content: space-around;   
         align-items: center;
-        
+    }
 // Homepage Main 
     .core, .time, .drivers, .tool, .femTech, .projects, .education, .contact {
         font-weight: 500;
@@ -136,35 +136,52 @@ main {
         }
     }
 // Women in Tech Main
-    .femTechQuote {
+    .quote {
         width: 100%;
         height: 10%;
-        padding: 8%;
-        background-color: $menu-bg-colour;
-        box-shadow: inset 3px 3px 25px rgba(0, 0, 255, .6);
-        font-weight: 600;
+        padding: 8%;        
         font-size: 22px;
         color: rgb(135, 201, 36);
-        sup {
+        sup { // matches sup colour at the top of page
             color: rgb(135, 201, 36);
         }
         a {
             color: gray;
         }
-        }
-    .nineties {
+    }
+    .timeline {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         div {
+            width: 100%;
+            height: 30%;
             display: flex;
             flex-direction: column;
             align-items: center;
-            img {
+            border: 1px red solid;
+            .timelineContent {
                 width: 20%;
-                height: 20%;
+                height: 60%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+            }
+        }  
+    }
+    /* .nineties {
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
                 &:hover { // blow up hover effect to match rebel energy
                     width: 150%;
                     height: 150%;
                 }
             }
-        }
-    }
-}
+        } */
+
