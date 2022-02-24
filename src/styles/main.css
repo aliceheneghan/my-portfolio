@@ -232,11 +232,16 @@ main .femTech img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px red solid;
+  margin: 1%;
+  background: lightgrey;
 }
 .timeline .year p {
   width: 90%;
   text-align: center;
+}
+.timeline .year p a {
+  color: #87c924;
+  font-weight: 600;
 }
 .timeline .year .timelineContent {
   width: 20%;
