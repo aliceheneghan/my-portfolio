@@ -142,6 +142,7 @@ main {
     .quote {
         width: 100%;
         height: 10%;
+        margin: 1%;
         padding: 8%;        
         font-size: 22px;
         color: $tech-green;
@@ -158,7 +159,7 @@ main {
         overflow: auto;
         .year {
             width: 100%;
-            height: 50vh;
+            height: 40%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -175,7 +176,7 @@ main {
             }
             .timelineContent {
                 width: 20%;
-                height: 70%;
+                height: 50%;
                     img {
                         width: 100%;
                         height: 100%;
