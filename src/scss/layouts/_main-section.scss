@@ -191,5 +191,31 @@ main {
             }
         }  
     }
-
+// Education Main Section
+    .educationWrapper {
+        width: 70%;
+        .eduRow {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-flow: row wrap;
+            margin: 3%;
+            .institution {
+                width: 33.33%;
+            }
+            .subjectWrapper {
+                width: 66.66%;
+                display: flex;
+                justify-content: center;
+                .subject {
+                    width: 50%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 5%;
+                }
+            }
+        }
+    }
+    
 

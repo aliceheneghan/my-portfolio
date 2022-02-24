@@ -263,6 +263,32 @@ main .femTech img {
   height: 100%;
 }
 
+.educationWrapper {
+  width: 70%;
+}
+.educationWrapper .eduRow {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 3%;
+}
+.educationWrapper .eduRow .institution {
+  width: 33.33%;
+}
+.educationWrapper .eduRow .subjectWrapper {
+  width: 66.66%;
+  display: flex;
+  justify-content: center;
+}
+.educationWrapper .eduRow .subjectWrapper .subject {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
 * {
   margin: 0;
   padding: 0;
