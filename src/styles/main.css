@@ -224,28 +224,29 @@ main .femTech img {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  overflow: auto;
 }
-.timeline div {
+.timeline .year {
   width: 100%;
-  height: 30%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px red solid;
 }
-.timeline div p {
+.timeline .year p {
   width: 90%;
   text-align: center;
 }
-.timeline div .timelineContent {
+.timeline .year .timelineContent {
   width: 20%;
   height: 70%;
 }
-.timeline div .timelineContent img {
+.timeline .year .timelineContent img {
   width: 100%;
   height: 100%;
 }
-.timeline div .timelineContent img:hover {
+.timeline .year .timelineContent img:hover {
   width: 700%;
   height: 700%;
   z-index: 1;
