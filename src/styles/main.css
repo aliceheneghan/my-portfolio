@@ -233,6 +233,7 @@ main .femTech img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 0;
   margin: 1%;
   padding: 1%;
   background: rgba(211, 211, 211, 0.219);
@@ -247,16 +248,11 @@ main .femTech img {
 }
 .timeline .year .timelineContent {
   width: 20%;
-  height: 50%;
+  height: 70%;
 }
 .timeline .year .timelineContent img {
   width: 100%;
   height: 100%;
-}
-.timeline .year .timelineContent img:hover {
-  width: 700%;
-  height: 700%;
-  z-index: 1;
 }
 
 * {
