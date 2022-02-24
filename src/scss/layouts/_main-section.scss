@@ -105,15 +105,13 @@ main {
 // Core Values Main
     .values {
         width: 40%;
-        height: 15vh;
+        height: 9.2vh; // sneak peak encouraging user to scroll
         // background: radial-gradient(rgba(0, 0, 255, 0.37), white, white);
-        //text-shadow: 1px 1px 2px skyblue, 0 0 1em skyblue, 0 0 0.2em black;
-        //text-shadow: 10px 10px 10px skyblue;
     }
 // Tool Stack Main
     .tStack {
         width: 11%;
-        height: 8%;
+        height: 15vh;
             // grayscale for tools that have not yet been learned
             &:nth-child(1n+4) {
                 filter: grayscale(1);

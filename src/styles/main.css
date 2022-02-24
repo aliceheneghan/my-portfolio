@@ -179,12 +179,12 @@ main .femTech img {
 
 .values {
   width: 40%;
-  height: 15vh;
+  height: 9.2vh;
 }
 
 .tStack {
   width: 11%;
-  height: 8%;
+  height: 15vh;
 }
 .tStack:nth-child(1n+4) {
   filter: grayscale(1);
