@@ -298,7 +298,7 @@ footer {
 footer div {
   width: 55%;
   position: relative;
-  left: 85%;
+  left: 89%;
   top: -124%;
   overflow: visible;
 }
@@ -326,6 +326,7 @@ body {
   grid-template-rows: 15vh 100% 6vh;
   grid-template-areas: "header" "main" "footer";
   background-color: §bg-colour;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */
