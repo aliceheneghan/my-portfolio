@@ -15,6 +15,9 @@ main {
         flex-direction: column;
         justify-content: space-around;   
         align-items: center;
+        sup { // matches sup colour at the top of page
+            color: rgb(135, 201, 36);
+        }
     }
 // Homepage Main 
     .core, .time, .drivers, .tool, .femTech, .projects, .education, .contact {
@@ -142,9 +145,7 @@ main {
         padding: 8%;        
         font-size: 22px;
         color: rgb(135, 201, 36);
-        sup { // matches sup colour at the top of page
-            color: rgb(135, 201, 36);
-        }
+        
         a {
             color: gray;
         }
@@ -162,26 +163,23 @@ main {
             flex-direction: column;
             align-items: center;
             border: 1px red solid;
+            p {
+                width: 90%;
+            }
             .timelineContent {
                 width: 20%;
-                height: 60%;
+                height: 70%;
                     img {
                         width: 100%;
                         height: 100%;
+                        &:hover { // blow up hover effect to match rebel energy
+                            width: 700%;
+                            height: 700%;
+                            z-index: 1; // so photo overlaps other content when it blows up
+                        }
                     }
             }
         }  
     }
-    /* .nineties {
-            div {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                img {
-                &:hover { // blow up hover effect to match rebel energy
-                    width: 150%;
-                    height: 150%;
-                }
-            }
-        } */
+
 

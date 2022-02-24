@@ -97,6 +97,9 @@ main .valuesWrapper, main .tStackWrapper, main .menuWrapper, main .historyWrappe
   justify-content: space-around;
   align-items: center;
 }
+main .valuesWrapper sup, main .tStackWrapper sup, main .menuWrapper sup, main .historyWrapper sup {
+  color: #87c924;
+}
 main .core, main .time, main .drivers, main .tool, main .femTech, main .projects, main .education, main .contact {
   font-weight: 500;
 }
@@ -211,9 +214,6 @@ main .femTech img {
   font-size: 22px;
   color: #87c924;
 }
-.quote sup {
-  color: #87c924;
-}
 .quote a {
   color: gray;
 }
@@ -233,27 +233,23 @@ main .femTech img {
   align-items: center;
   border: 1px red solid;
 }
+.timeline div p {
+  width: 90%;
+}
 .timeline div .timelineContent {
   width: 20%;
-  height: 60%;
+  height: 70%;
 }
 .timeline div .timelineContent img {
   width: 100%;
   height: 100%;
 }
+.timeline div .timelineContent img:hover {
+  width: 700%;
+  height: 700%;
+  z-index: 1;
+}
 
-/* .nineties {
-        div {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            img {
-            &:hover { // blow up hover effect to match rebel energy
-                width: 150%;
-                height: 150%;
-            }
-        }
-    } */
 * {
   margin: 0;
   padding: 0;
