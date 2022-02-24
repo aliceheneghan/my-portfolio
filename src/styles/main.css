@@ -235,6 +235,7 @@ main .femTech img {
 }
 .timeline div p {
   width: 90%;
+  text-align: center;
 }
 .timeline div .timelineContent {
   width: 20%;
