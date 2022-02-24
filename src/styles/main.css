@@ -208,11 +208,12 @@ main .femTech img {
 }
 
 .quote {
-  width: 100%;
+  width: 90%;
   height: 10%;
-  margin: 1%;
+  margin: 0.5%;
   padding: 8%;
-  font-size: 22px;
+  font-size: 135%;
+  font-weight: 500;
   color: #87c924;
 }
 .quote a {
@@ -220,26 +221,32 @@ main .femTech img {
 }
 
 .timeline {
-  width: 100%;
+  width: 90%;
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   overflow: auto;
+  overflow-x: hidden;
 }
 .timeline .year {
   width: 100%;
-  height: 40%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 0;
-  margin: 1%;
+  margin: 0.5%;
   padding: 1%;
+  color: gray;
   background: rgba(211, 211, 211, 0.219);
+}
+.timeline .year h4 {
+  height: 3%;
+  color: black;
 }
 .timeline .year p {
   width: 90%;
+  height: 21%;
   text-align: center;
 }
 .timeline .year p a {
@@ -247,7 +254,7 @@ main .femTech img {
   font-weight: 600;
 }
 .timeline .year .timelineContent {
-  width: 20%;
+  width: 30%;
   height: 70%;
 }
 .timeline .year .timelineContent img {
