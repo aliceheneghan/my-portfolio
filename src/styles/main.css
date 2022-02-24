@@ -94,7 +94,6 @@ main .valuesWrapper, main .tStackWrapper, main .menuWrapper, main .historyWrappe
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
 }
 main .valuesWrapper sup, main .tStackWrapper sup, main .menuWrapper sup, main .historyWrapper sup {
