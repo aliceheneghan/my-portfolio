@@ -41,15 +41,15 @@
 }
 
 .purple {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: whitesmoke;
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6);
   font-size: 17px;
 }
 
 .ice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: grey;
   text-shadow: 1px 1px 8px skyblue, 0 0 1em skyblue;
 }
@@ -178,8 +178,8 @@ main .femTech img {
 }
 
 .values {
-  width: 47%;
-  height: 9%;
+  width: 40%;
+  height: 15vh;
 }
 
 .tStack {
@@ -276,7 +276,7 @@ main .femTech img {
 
 body {
   width: 1fr;
-  height: 200vh;
+  height: auto;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 15vh 100% 6vh;
