@@ -289,6 +289,23 @@ main .femTech img {
   padding: 5%;
 }
 
+footer {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 5%;
+}
+footer div {
+  width: 55%;
+  position: relative;
+  left: 85%;
+  top: -124%;
+  overflow: visible;
+}
+footer div img {
+  width: 10%;
+}
+
 * {
   margin: 0;
   padding: 0;
