@@ -192,15 +192,16 @@ main .femTech img {
 
 .contactWrapper {
   width: 60%;
-  height: 85%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  margin-top: 3%;
 }
 .contactWrapper .contactMe {
   width: 30%;
-  height: 5%;
+  height: 10vh;
   margin: 1%;
 }
 .contactWrapper .contactMe a:visited, .contactWrapper .contactMe a:link {
