@@ -53,7 +53,8 @@
   color: grey;
   text-shadow: 1px 1px 8px skyblue, 0 0 1em skyblue;
 }
-.ice:hover {
+
+.iceHover:hover {
   box-shadow: inset 3px 3px 25px rgba(0, 0, 255, 0.6), 6px 6px 6px skyblue;
 }
 
