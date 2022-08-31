@@ -186,7 +186,7 @@ main .femTech img {
   width: 11%;
   height: 15vh;
 }
-.tStack:nth-child(1n+4) {
+.tStack:nth-child(1n+5) {
   filter: grayscale(1);
 }
 
